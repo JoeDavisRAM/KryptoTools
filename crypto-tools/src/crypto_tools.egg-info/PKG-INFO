@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: crypto-tools
+Version: 0.1.0
+Summary: A comprehensive cryptography toolkit for Python
+Author-email: Your Name <your.email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/JoeDavisRAM/KryptoTools
+Project-URL: Documentation, https://github.com/JoeDavisRAM/KryptoTools/wiki
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+A comprehensive Python cryptography toolkit providing:
+
+- Symmetric encryption (AES)
+- Asymmetric encryption (RSA, ECC)
+- Cryptographic hashing (SHA, bcrypt)
+- Secure random generation
+- Password utilities
+- Secure communication channels
+- Token handling (JWT, OAuth)
