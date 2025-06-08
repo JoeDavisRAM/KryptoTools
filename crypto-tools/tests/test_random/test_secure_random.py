@@ -3,7 +3,7 @@ Secure Random Tests
 """
 
 import pytest
-from src.crypto_tools.random.secure_random import secure_random_bytes
+from crypto_tools.random.secure_random import secure_random_bytes
 
 class TestSecureRandom:
     def test_length(self):
