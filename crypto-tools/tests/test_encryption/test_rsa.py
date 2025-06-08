@@ -3,7 +3,7 @@ RSA Encryption Tests
 """
 
 import pytest
-from src.crypto_tools.encryption.rsa import RSA
+from crypto_tools.encryption.rsa import RSA
 
 class TestRSA:
     def test_key_generation(self):
