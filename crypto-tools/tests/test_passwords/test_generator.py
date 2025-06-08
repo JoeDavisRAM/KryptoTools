@@ -4,7 +4,7 @@ Password Generator Tests
 
 import pytest
 import string
-from src.crypto_tools.passwords.generator import generate_password
+from crypto_tools.passwords.generator import generate_password
 
 class TestPasswordGenerator:
     def test_default_length(self):
