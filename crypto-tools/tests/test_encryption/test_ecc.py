@@ -3,7 +3,7 @@ ECC Encryption Tests
 """
 
 import pytest
-from src.crypto_tools.encryption.ecc import ECC
+from crypto_tools.encryption.ecc import ECC
 
 class TestECC:
     def test_key_generation(self):
