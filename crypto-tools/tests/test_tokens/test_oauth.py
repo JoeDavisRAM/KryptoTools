@@ -4,7 +4,7 @@ OAuth Tests
 
 import pytest
 from unittest.mock import Mock
-from src.crypto_tools.tokens.oauth import OAuthClient
+from crypto_tools.tokens.oauth import OAuthClient
 
 class TestOAuth:
     def test_authorization_url(self):
