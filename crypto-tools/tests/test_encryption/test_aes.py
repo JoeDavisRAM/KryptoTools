@@ -3,7 +3,7 @@ AES Encryption Tests
 """
 
 import pytest
-from src.crypto_tools.encryption.aes import AES
+from crypto_tools.encryption.aes import AES
 
 class TestAES:
     def test_encryption_decryption(self):
