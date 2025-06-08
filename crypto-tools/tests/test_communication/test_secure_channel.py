@@ -3,7 +3,7 @@ Secure Channel Tests
 """
 
 import pytest
-from src.crypto_tools.communication.secure_channel import SecureChannel
+from crypto_tools.communication.secure_channel import SecureChannel
 class TestSecureChannel:
     def test_message_encryption(self):
         channel1 = SecureChannel()
