@@ -2,7 +2,7 @@
 SHA Hashing Tests
 """
 
-from src.crypto_tools.hashing import sha256, sha512
+from crypto_tools.hashing import sha256, sha512
 
 class TestSHA:
     def test_sha256_consistency(self):
