@@ -4,7 +4,7 @@ JWT Token Tests
 
 import time
 import pytest
-from src.crypto_tools.tokens.jwt import create_jwt, verify_jwt
+from crypto_tools.tokens.jwt import create_jwt, verify_jwt
 
 class TestJWT:
     def test_token_creation_verification(self):
