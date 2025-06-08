@@ -3,7 +3,7 @@ Bcrypt Hashing Tests
 """
 
 import pytest
-from src.crypto_tools.hashing import bcrypt_hash, bcrypt_verify
+from crypto_tools.hashing import bcrypt_hash, bcrypt_verify
 
 class TestBcrypt:
     def test_hash_verify(self):
