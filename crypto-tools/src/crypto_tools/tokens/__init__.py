@@ -8,3 +8,6 @@ Available modules:
 - oauth: OAuth utilities
 """
 
+from .tokens import generate_oauth_token
+
+__all__ = ['generate_oauth_token']
